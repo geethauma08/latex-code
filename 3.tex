@@ -1,3 +1,4 @@
+
 \documentclass{article}
 %\document{geometry}
 \usepackage[top=3cm,bottom=3cm,left=3.2cm,right=3.2cm,headsep=10pt,a4paper]{geometry}
@@ -43,7 +44,7 @@ Note that your figure will automatically be placed in the most appropriate place
 surrounding text and taking into account \textcolor{blue}{other figures or tables}.
 \begin{figure}
 	\begin{center}
-\includegraphics[scale=0.1]{img}
+\includegraphics[scale=0.1]{overleaf/kappa.jpg}
 \caption{This frog was uploaded via the file-tree menu.}
 \end{center}
 \end{figure}
@@ -132,12 +133,10 @@ We hope you find Overleaf useful, and do take a look at our \textcolor{blue}{hel
 guides! Please also let us know if you have any feedback using the Contact Us link at the bottom of
 the Overleaf menu — or use the contact form at \textcolor{blue}{ \href{https://www.overleaf.com/contact}{https://www.overleaf.com/contact}}.
 
-\subsection*{References}
-[Gre93] George D. Greenwade.
-14(3):342–351, 1993.
-The Comprehensive Tex Archive Network (CTAN).
-3
-TUGBoat,
+
+\cite{greenwade1993comprehensive}
+\bibliographystyle{plain}
+\bibliography{overleaf/mybib}
+
 
 \end{document}
-
